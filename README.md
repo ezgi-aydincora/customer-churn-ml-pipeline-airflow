@@ -187,7 +187,7 @@ customer-churn-ml-pipeline-airflow/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/customer-churn-ml-pipeline-airflow.git
+git clone https://github.com/ezgi-aydincora/customer-churn-ml-pipeline-airflow.git
 cd customer-churn-ml-pipeline-airflow
 ```
 
