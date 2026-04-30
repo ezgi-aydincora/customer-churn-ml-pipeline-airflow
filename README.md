@@ -236,6 +236,14 @@ This project demonstrates how a machine learning pipeline can support customer r
 
 The generated risk segments can help business teams prioritize retention campaigns and take proactive actions before customers leave.
 
+## Documentation
+
+Detailed project documentation is available in both Turkish and English:
+
+- [Project Documentation - Turkish](docs/project_documentation.pdf)
+- [Project Documentation - English](docs/project_documentation_en.pdf)
+
+
 ## Author
 
 **Ezgi Aydın Cora**  
