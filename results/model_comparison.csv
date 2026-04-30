@@ -1,0 +1,3 @@
+model,accuracy,precision,recall,f1_score,roc_auc,feature_count
+Baseline Random Forest,0.789,0.632,0.492,0.553,0.818,30
+Cuckoo Optimized Random Forest,0.746,0.516,0.684,0.589,0.792,12
