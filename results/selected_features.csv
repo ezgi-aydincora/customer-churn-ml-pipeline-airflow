@@ -1,0 +1,13 @@
+feature
+tenure
+MonthlyCharges
+TotalCharges
+Contract_Month-to-month
+Contract_Two year
+InternetService_Fiber optic
+OnlineSecurity_Yes
+TechSupport_Yes
+PaymentMethod_Electronic check
+PaperlessBilling_Yes
+SeniorCitizen
+Dependents_Yes
