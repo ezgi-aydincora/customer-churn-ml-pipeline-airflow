@@ -55,3 +55,35 @@ cuckoo_search_feature_selection
 train_optimized_model
         ↓
 generate_churn_predictions
+
+
+## Methodology
+
+### 1. Data Validation
+
+The pipeline first checks whether the dataset exists in the expected directory.  
+Then it validates whether the required columns are available in the dataset.
+
+### 2. Data Cleaning and Preprocessing
+
+The preprocessing step includes:
+
+- Removing unnecessary columns such as `customerID`
+- Converting `TotalCharges` to numeric format
+- Handling missing values
+- Encoding the target variable `Churn`
+- Applying one-hot encoding to categorical variables
+
+### 3. Baseline Model
+
+A Random Forest Classifier is trained using all available features.  
+This model is used as the baseline for performance comparison.
+
+### 4. Feature Selection with Cuckoo Search
+
+Cuckoo Search optimization is applied for feature selection.
+
+Each solution represents a feature subset:
+
+```text
+[1, 0, 1, 1, 0, 1, ...]
