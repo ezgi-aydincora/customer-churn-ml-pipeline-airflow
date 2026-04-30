@@ -20,19 +20,19 @@ The project uses the Telco Customer Churn dataset.
 
 The dataset includes customer demographic information, account details, service usage information, payment method, monthly charges, total charges, and churn status.
 
-Example features:
+### Example Features
 
-- gender
-- SeniorCitizen
-- Partner
-- Dependents
-- tenure
-- InternetService
-- Contract
-- PaymentMethod
-- MonthlyCharges
-- TotalCharges
-- Churn
+- `gender`
+- `SeniorCitizen`
+- `Partner`
+- `Dependents`
+- `tenure`
+- `InternetService`
+- `Contract`
+- `PaymentMethod`
+- `MonthlyCharges`
+- `TotalCharges`
+- `Churn`
 
 > Note: The dataset is not included in this repository.  
 > It can be downloaded from Kaggle and placed under the `data/raw/` folder.
@@ -55,7 +55,7 @@ cuckoo_search_feature_selection
 train_optimized_model
         ↓
 generate_churn_predictions
-
+```
 
 ## Methodology
 
@@ -74,16 +74,4 @@ The preprocessing step includes:
 - Encoding the target variable `Churn`
 - Applying one-hot encoding to categorical variables
 
-### 3. Baseline Model
-
-A Random Forest Classifier is trained using all available features.  
-This model is used as the baseline for performance comparison.
-
-### 4. Feature Selection with Cuckoo Search
-
-Cuckoo Search optimization is applied for feature selection.
-
-Each solution represents a feature subset:
-
-```text
-[1, 0, 1, 1, 0, 1, ...]
+### 3.
