@@ -1,0 +1,6 @@
+customer_row_id,churn_prediction,churn_probability,risk_segment
+1,1,0.753,high
+2,0,0.013,low
+3,1,0.887,high
+4,0,0.000,low
+5,1,0.900,high
